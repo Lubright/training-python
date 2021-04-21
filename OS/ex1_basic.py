@@ -1,6 +1,7 @@
 import os
 from os import path
 from pathlib import Path
+import Module.ex1_myModule.lib
 
 p = Path(__file__)
 file_path_parent = p.parent
