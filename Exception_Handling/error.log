@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "h:/training-python/Exception_Handling/Traceback/ex3_raise_self_defined_Exception_2.py", line 17, in <module>
+    checkPassWord(pwd)
+  File "h:/training-python/Exception_Handling/Traceback/ex3_raise_self_defined_Exception_2.py", line 10, in checkPassWord
+    raise Exception("密碼長度太長")
+Exception: 密碼長度太長
+Traceback (most recent call last):
+  File "h:/training-python/Exception_Handling/Traceback/ex3_raise_self_defined_Exception_2.py", line 17, in <module>
+    checkPassWord(pwd)
+  File "h:/training-python/Exception_Handling/Traceback/ex3_raise_self_defined_Exception_2.py", line 8, in checkPassWord
+    raise Exception("密碼長度不足")
+Exception: 密碼長度不足
+Traceback (most recent call last):
+  File "h:/training-python/Exception_Handling/Traceback/ex3_raise_self_defined_Exception_2.py", line 17, in <module>
+    checkPassWord(pwd)
+  File "h:/training-python/Exception_Handling/Traceback/ex3_raise_self_defined_Exception_2.py", line 10, in checkPassWord
+    raise Exception("密碼長度太長")
+Exception: 密碼長度太長
+
+Traceback (most recent call last):
+  File "h:/training-python/Exception_Handling/Traceback/ex3_raise_self_defined_Exception_2.py", line 17, in <module>
+    checkPassWord(pwd)
+  File "h:/training-python/Exception_Handling/Traceback/ex3_raise_self_defined_Exception_2.py", line 8, in checkPassWord
+    raise Exception("密碼長度不足")
+Exception: 密碼長度不足
+

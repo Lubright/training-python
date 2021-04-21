@@ -17,7 +17,7 @@ print("-" * 50 + "\n")
 
 # get basename
 print("basename(__file__):", path.basename(__file__))
-print("basename(.):", path.abspath("."))
+print("basename(.):", path.basename(path.abspath("..")))
 print("-" * 50 + "\n")
 
 # 傳回相對參考路徑
