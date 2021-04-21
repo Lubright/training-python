@@ -1,0 +1,5 @@
+2021-04-22 01:49:22 __main__     DEBUG    : loggin message, DEBUG
+2021-04-22 01:49:22 __main__     INFO     : loggin message, INFO
+2021-04-22 01:49:22 __main__     WARNING  : loggin message, WARNING
+2021-04-22 01:49:22 __main__     ERROR    : loggin message, ERROR
+2021-04-22 01:49:22 __main__     CRITICAL : loggin message, CRITICAL
