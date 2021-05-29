@@ -2,7 +2,7 @@
   "workbench.list.multiSelectModifier": "alt",
   "editor.formatOnSave": false,
   "emmet.triggerExpansionOnTab": true,
-  "python.pythonPath": "C:\\Users\\user\\Anaconda3\\envs\\web_scraping\\python.exe",
+  "python.pythonPath": "C:\\Users\\Lubright\\Anaconda3\\envs\\web_scraping\\python.exe",
   "liveServer.settings.port": 5501,
   //css產出設定
   "liveSassCompile.settings.formats": [

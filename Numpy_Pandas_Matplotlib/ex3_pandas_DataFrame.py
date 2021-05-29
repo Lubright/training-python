@@ -71,6 +71,14 @@ print("selection...\n")
 
 print(df["position"], type(df["position"])) # Series
 
+# data = df[df["position"]=="PG"]
+# print(data["position"], type(data["position"]))
+
+# input()
+# print(data[["position"]], type(data[["position"]]))
+
+# input()
+
 # 可以使用 . 去選擇
 print(df.position, type(df.position))
 print(df.name, type(df.name))

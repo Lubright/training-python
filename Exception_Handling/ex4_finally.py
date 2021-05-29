@@ -11,6 +11,8 @@ def divide(x, y):
 
 # test here
 print("2/3={}".format(divide(2, 3)))
+print("-" * 50 + "\n")
 print("a/b={}".format(divide("a", "b")))
+print("-" * 50 + "\n")
 print("2/0={}".format(divide(2, 0))) # 捕捉到 ZeroDivisionError
 print("-" * 50 + "\n")

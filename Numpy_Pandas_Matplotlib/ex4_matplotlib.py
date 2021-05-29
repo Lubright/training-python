@@ -1,4 +1,4 @@
-import numpy
+import numpy as np
 import pandas as pd
 
 # Gapminder 資料
@@ -102,7 +102,7 @@ print(axes, type(axes))
 print("axes.shape:", axes.shape)
 
 continents = csv_data["continent"].unique()
-continents = numpy.append(continents, [""])
+continents = np.append(continents, [""])
 continents = continents.reshape(-1, 3)
 print(continents)
 print(continents.shape)
@@ -122,8 +122,8 @@ for i, r in enumerate(continents):
 
 axes[1, 2].set_visible(False) # hidden
 plt.grid(True)
-plt.tight_layout()
-# plt.show()
+fig.tight_layout()
+plt.show()
 print("-" * 50 + "\n")
 
 
