@@ -1,4 +1,4 @@
-from .bank import Bank # 相對式匯入
+from bank import Bank # 相對式匯入
 
 class Zhongzheng_Bank(Bank):
     """Define Zhongzheng Bank

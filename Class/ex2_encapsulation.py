@@ -18,7 +18,7 @@ class CCircle:
         return pow(self.__r, 2) * CCircle.PI
     
     # private instance method
-    def __private_instance_method(slef) -> None:
+    def __private_instance_method(self) -> None:
         print("__private_instance_method is called...")
     def call_private_instance_method(self) -> None:
         self.__private_instance_method()

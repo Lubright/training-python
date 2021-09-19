@@ -50,6 +50,12 @@ print("doc:", doc)
 print("-" * 50 + "\n")
 
 
+# ----- write file by print ----- #
+fstream = open(file_path_parent.joinpath("ex1_test_print.txt").__str__(), "wt", encoding="utf-8")
+print("lorem", file=fstream)
+fstream.close()
+
+print("-" * 50 + "\n")
 
 
 """

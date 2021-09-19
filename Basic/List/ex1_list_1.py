@@ -32,3 +32,7 @@ for i in range(10, 0, -1):
     print(i, end=", ")
 print()
 print("-" * 50 + "\n")
+
+for i, v in enumerate(list1):
+    print("{}:{}".format(i, v))
+

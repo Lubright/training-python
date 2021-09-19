@@ -173,6 +173,8 @@ print("result:", result, type(result), sep="\n")
 print("-" * 50 + "\n")
 
 # Series.str.split
+print("Series.str.split...\n")
+
 ser1 = pd.Series(["3008 abc", "6409 xyz"])
 ser2 = ser1.str.split()
 print(ser2)
